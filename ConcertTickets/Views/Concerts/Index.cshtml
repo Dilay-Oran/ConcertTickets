@@ -13,10 +13,13 @@
 <table class="table">
     <thead>
         <tr>
+            <th>Görsel</th>
             <th>Başlık</th>
             <th>Sanatçı</th>
             <th>Mekan</th>
             <th>Tarih</th>
+            <th>Fiyat</th>
+            <th>Kalan / Kontenjan</th>
             <th></th>
         </tr>
     </thead>
@@ -24,11 +27,20 @@
         @foreach (var concert in Model)
         {
             <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(concert.ImagePath))
+                    {
+                        <img src="@concert.ImagePath" alt="@concert.Title" style="width: 80px; height: auto;" />
+                    }
+                </td>
                 <td>@concert.Title</td>
                 <td>@concert.Artist</td>
                 <td>@concert.Venue</td>
                 <td>@concert.Date.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@concert.Price.ToString("C")</td>
+                <td>@(concert.Capacity - concert.Sold) / @concert.Capacity</td>
                 <td>
+                    <a asp-controller="Orders" asp-action="Buy" asp-route-id="@concert.Id" class="btn btn-sm btn-success">Bilet Al</a>
                     <a asp-action="Edit" asp-route-id="@concert.Id">Düzenle</a> |
                     <a asp-action="Delete" asp-route-id="@concert.Id">Sil</a>
                 </td>

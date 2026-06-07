@@ -1,0 +1,44 @@
+﻿@model ConcertTickets.Models.Concert
+
+@{
+    ViewData["Title"] = "Bilet Al";
+}
+
+<h1>Bilet Al</h1>
+
+<div class="card mb-3" style="max-width: 500px;">
+    <div class="card-body">
+
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="@Model.ImagePath" alt="@Model.Title" class="img-fluid mb-3" style="max-height: 250px;" />
+        }
+        <h4 class="card-title">@Model.Title</h4>
+        <p class="card-text">
+            <strong>Sanatçı:</strong> @Model.Artist<br />
+            <strong>Mekan:</strong> @Model.Venue<br />
+            <strong>Tarih:</strong> @Model.Date.ToString("dd.MM.yyyy HH:mm")<br />
+            <strong>Fiyat:</strong> @Model.Price.ToString("C")<br />
+            <strong>Kalan Bilet:</strong> @(Model.Capacity - Model.Sold)
+        </p>
+    </div>
+</div>
+
+@if (Model.Capacity - Model.Sold > 0)
+{
+    <form asp-action="Buy" method="post" style="max-width: 500px;">
+        <input type="hidden" name="concertId" value="@Model.Id" />
+
+        <div class="mb-3">
+            <label class="form-label">Adet</label>
+            <input type="number" name="quantity" class="form-control" value="1" min="1" max="@(Model.Capacity - Model.Sold)" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Satın Al</button>
+        <a asp-controller="Concerts" asp-action="Index" class="btn btn-secondary">İptal</a>
+    </form>
+}
+else
+{
+    <div class="alert alert-warning">Bu konser için bilet kalmadı.</div>
+}

@@ -6,10 +6,27 @@
 
 <h1>Konseri Düzenle</h1>
 
-<form asp-action="Edit" method="post">
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
     <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Mevcut Görsel</label><br />
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="@Model.ImagePath" alt="@Model.Title" style="max-height: 150px;" class="mb-2" />
+        }
+        else
+        {
+            <p class="text-muted">Görsel yok.</p>
+        }
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Yeni Görsel (değiştirmek istemiyorsanız boş bırakın)</label>
+        <input type="file" name="imageFile" class="form-control" accept="image/*" />
+    </div>
 
     <div class="mb-3">
         <label asp-for="Title" class="form-label"></label>
@@ -33,6 +50,18 @@
         <label asp-for="Date" class="form-label"></label>
         <input asp-for="Date" class="form-control" />
         <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Capacity" class="form-label"></label>
+        <input asp-for="Capacity" class="form-control" />
+        <span asp-validation-for="Capacity" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Güncelle</button>

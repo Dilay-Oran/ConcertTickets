@@ -12,5 +12,6 @@ namespace ConcertTickets.Data
         }
 
         public DbSet<Concert> Concerts { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }

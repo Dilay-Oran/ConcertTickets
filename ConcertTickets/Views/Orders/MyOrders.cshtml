@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ConcertTickets.Models.Order>
+
+@{
+    ViewData["Title"] = "Siparişlerim";
+}
+
+<h1>Siparişlerim</h1>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Henüz bir siparişiniz yok.</div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Konser</th>
+                <th>Sanatçı</th>
+                <th>Adet</th>
+                <th>Toplam Tutar</th>
+                <th>Tarih</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Concert?.Title</td>
+                    <td>@order.Concert?.Artist</td>
+                    <td>@order.Quantity</td>
+                    <td>@order.TotalPrice.ToString("C")</td>
+                    <td>@order.OrderDate.ToString("dd.MM.yyyy HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

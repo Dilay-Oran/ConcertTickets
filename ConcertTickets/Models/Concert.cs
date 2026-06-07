@@ -22,6 +22,15 @@ namespace ConcertTickets.Models
         [DataType(DataType.DateTime)]
         public DateTime Date { get; set; }
 
+        [Required]
+        [Range(0.01, 100000)]
+        public decimal Price { get; set; }
+
+        [Required]
+        [Range(1, 100000)]
+        public int Capacity { get; set; }   // toplam kontenjan
+
+        public int Sold { get; set; }        // satılan adet
         public string? ImagePath { get; set; }
     }
 }

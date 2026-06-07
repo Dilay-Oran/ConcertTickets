@@ -10,11 +10,14 @@ namespace ConcertTickets.Controllers
     public class ConcertsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _env;
 
-        public ConcertsController(ApplicationDbContext context)
+        public ConcertsController(ApplicationDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
+
 
         [AllowAnonymous]
         public async Task<IActionResult> Index()
@@ -32,10 +35,17 @@ namespace ConcertTickets.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin,Organizer")]
-        public async Task<IActionResult> Create(Concert concert)
+        public async Task<IActionResult> Create(Concert concert, IFormFile? imageFile)
         {
             if (ModelState.IsValid)
             {
+                // Resim yüklendiyse kaydet ve yolunu sakla
+                var imagePath = await ImageService.SaveResizedImageAsync(imageFile, _env.WebRootPath);
+                if (imagePath != null)
+                {
+                    concert.ImagePath = imagePath;
+                }
+
                 _context.Add(concert);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -63,7 +73,7 @@ namespace ConcertTickets.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin,Organizer")]
-        public async Task<IActionResult> Edit(int id, Concert concert)
+        public async Task<IActionResult> Edit(int id, Concert concert, IFormFile? imageFile)
         {
             if (id != concert.Id)
             {
@@ -72,6 +82,25 @@ namespace ConcertTickets.Controllers
 
             if (ModelState.IsValid)
             {
+                // Mevcut kaydı çek (eski resim yolunu öğrenmek için)
+                var existing = await _context.Concerts.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
+                if (existing == null)
+                {
+                    return NotFound();
+                }
+
+                // Yeni resim yüklendiyse: eskiyi sil, yeniyi kaydet. Yoksa eskiyi koru.
+                var newImagePath = await ImageService.SaveResizedImageAsync(imageFile, _env.WebRootPath);
+                if (newImagePath != null)
+                {
+                    ImageService.DeleteImage(existing.ImagePath, _env.WebRootPath);
+                    concert.ImagePath = newImagePath;
+                }
+                else
+                {
+                    concert.ImagePath = existing.ImagePath;
+                }
+
                 _context.Update(concert);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
