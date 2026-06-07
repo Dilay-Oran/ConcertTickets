@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ConcertTickets.Models.Concert>
+
+@{
+    ViewData["Title"] = "Konserler";
+}
+
+<h1>Konserler</h1>
+
+<p>
+    <a asp-action="Create">Yeni Konser Ekle</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Başlık</th>
+            <th>Sanatçı</th>
+            <th>Mekan</th>
+            <th>Tarih</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var concert in Model)
+        {
+            <tr>
+                <td>@concert.Title</td>
+                <td>@concert.Artist</td>
+                <td>@concert.Venue</td>
+                <td>@concert.Date.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@concert.Id">Düzenle</a> |
+                    <a asp-action="Delete" asp-route-id="@concert.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

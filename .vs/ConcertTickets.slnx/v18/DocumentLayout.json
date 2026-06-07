@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\concerttickets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\concerttickets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\views\\concerts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\views\\concerts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\controllers\\concertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\controllers\\concertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\views\\concerts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\views\\concerts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\views\\concerts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\views\\concerts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\views\\concerts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\views\\concerts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|c:\\users\\d\u0130lay\\source\\repos\\concerttickets\\concerttickets\\models\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDD42834-C3A7-74F6-12B6-2F8C950F9856}|ConcertTickets\\ConcertTickets.csproj|solutionrelative:concerttickets\\models\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "ConcertTickets\\Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "ConcertTickets\\Data\\DbSeeder.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T19:22:02.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ConcertTickets\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ConcertTickets\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T19:16:31.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Concerts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ConcertTickets\\Views\\Concerts\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Concerts\\Delete.cshtml",
+              "RelativeToolTip": "ConcertTickets\\Views\\Concerts\\Delete.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T18:55:56.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Concerts\\Create.cshtml",
+              "RelativeDocumentMoniker": "ConcertTickets\\Views\\Concerts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Concerts\\Create.cshtml",
+              "RelativeToolTip": "ConcertTickets\\Views\\Concerts\\Create.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T18:44:35.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Concerts\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConcertTickets\\Views\\Concerts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Concerts\\Index.cshtml",
+              "RelativeToolTip": "ConcertTickets\\Views\\Concerts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T17:15:28.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Program.cs",
+              "RelativeDocumentMoniker": "ConcertTickets\\Program.cs",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Program.cs",
+              "RelativeToolTip": "ConcertTickets\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:42:06.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConcertTickets\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConcertTickets\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T18:59:55.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConcertsController.cs",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Controllers\\ConcertsController.cs",
+              "RelativeDocumentMoniker": "ConcertTickets\\Controllers\\ConcertsController.cs",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Controllers\\ConcertsController.cs",
+              "RelativeToolTip": "ConcertTickets\\Controllers\\ConcertsController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T17:09:50.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConcertTickets.csproj",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\ConcertTickets.csproj",
+              "RelativeDocumentMoniker": "ConcertTickets\\ConcertTickets.csproj",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\ConcertTickets.csproj",
+              "RelativeToolTip": "ConcertTickets\\ConcertTickets.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-07T16:36:19.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Concerts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ConcertTickets\\Views\\Concerts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Views\\Concerts\\Edit.cshtml",
+              "RelativeToolTip": "ConcertTickets\\Views\\Concerts\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwBsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T18:52:15.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\appsettings.json",
+              "RelativeDocumentMoniker": "ConcertTickets\\appsettings.json",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\appsettings.json",
+              "RelativeToolTip": "ConcertTickets\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-07T16:39:48.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ConcertTickets\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ConcertTickets\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:36:56.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Concert.cs",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Models\\Concert.cs",
+              "RelativeDocumentMoniker": "ConcertTickets\\Models\\Concert.cs",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\source\\repos\\ConcertTickets\\ConcertTickets\\Models\\Concert.cs",
+              "RelativeToolTip": "ConcertTickets\\Models\\Concert.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:21:26.892Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
