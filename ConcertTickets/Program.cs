@@ -6,9 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddRazorPages();   // 👈 EKLENDI: Identity'nin Login/Register sayfaları Razor Pages
-
-builder.Services.AddDbContext<ApplicationDbContext>(options =>   // 👈 YERI DEGISTI: artık Identity'den önce
+builder.Services.AddRazorPages();   
+builder.Services.AddDbContext<ApplicationDbContext>(options =>   
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
@@ -22,23 +21,23 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
+    app.UseHsts(); 
 }
 
 app.UseHttpsRedirection();
 app.UseRouting();
 
-app.UseAuthentication();   // 👈 EKLENDI: "sen kimsin?" — Authorization'dan ÖNCE gelmeli
+app.UseAuthentication();   //  "sen kimsin?" — Authorization'dan ÖNCE gelmeli
 app.UseAuthorization();    // "buna yetkin var mı?"
 
 app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Concerts}/{action=Index}/{id?}")
     .WithStaticAssets();
 
-app.MapRazorPages();   // 👈 EKLENDI: Razor Pages yönlendirmesi (Login/Register çalışsın diye)
+app.MapRazorPages();   //  Razor Pages yönlendirmesi (Login/Register çalışsın diye)
 
 using (var scope = app.Services.CreateScope())
 {
